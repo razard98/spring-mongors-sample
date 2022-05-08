@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://test:mypassword@mongo1:27020,mongo2:27021,mongo3:27022/testdb?replicaSet=replication&authSource=testdb&readPreference=secondaryPreferred
+logging:
+  level:
+    org.springframework.data.mongodb: DEBUG
