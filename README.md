@@ -21,10 +21,10 @@ $docker-compose up -d
 </pre>
 <pre>
 $docker ps
-CONTAINER ID   IMAGE                             COMMAND                  CREATED       STATUS       PORTS                                                  NAMES
-e38805497b9f   mongo                             "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:27022->27017/tcp                               mongodb-replicaset_mongo3_1
-70eeb4b3bb20   mongo                             "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:27021->27017/tcp                               mongodb-replicaset_mongo2_1
-5b3dc3388b57   mongo                             "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:27020->27017/tcp                               mongodb-replicaset_mongo1_1
+CONTAINER ID   IMAGE                             COMMAND                  CREATED             STATUS             PORTS                                                  NAMES
+b935dceb7544   mongo                             "docker-entrypoint.s…"   About an hour ago   Up About an hour   27017/tcp, 0.0.0.0:27022->27022/tcp                    mongodb-replicaset_mongo3_1
+6c4521faabc6   mongo                             "docker-entrypoint.s…"   About an hour ago   Up About an hour   27017/tcp, 0.0.0.0:27021->27021/tcp                    mongodb-replicaset_mongo2_1
+43a1c5a8078b   mongo                             "docker-entrypoint.s…"   About an hour ago   Up About an hour   27017/tcp, 0.0.0.0:27020->27020/tcp                    mongodb-replicaset_mongo1_1
 </pre>
 
 #### mongodb 접속
